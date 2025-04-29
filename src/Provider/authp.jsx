@@ -7,7 +7,3 @@ const AuthProvider = ({children}) => {
         <authContext.Provider value={{}}>
             {children}
         </authContext.Provider>
-    )
-}
-
-export default AuthProvider;
