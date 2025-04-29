@@ -1,0 +1,81 @@
+[
+    {
+      "id": 1,
+      "name": "Ashis Rahman",
+      "profileImage": "https://i.ibb.co.com/qxdftk9/guide3.jpg",
+      "specialty": "Cultural Tours",
+      "description": "Ashis Rahman is a passionate cultural guide who loves sharing the rich history and traditions of her region. Her tours are immersive and insightful.",
+      "yearsOfExperience": 8,
+      "location": "Dhaka, Bangladesh",
+      "contact": {
+        "email": "Ashis.rahman@example.com",
+        "phone": "+880123456789"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Lina Miah",
+      "profileImage": "https://i.ibb.co.com/x7b5RkP/guide4.jpg",
+      "specialty": "Historical Sites",
+      "description": "Lina Miah specializes in historical tours, offering deep dives into ancient architecture and landmarks with fascinating stories.",
+      "yearsOfExperience": 10,
+      "location": "Chittagong, Bangladesh",
+      "contact": {
+        "email": "lina.Miah@example.com",
+        "phone": "+880987654321"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Rahim Hossain",
+      "profileImage": "https://i.ibb.co.com/c2j7Tt5/guide5.jpg",
+      "specialty": "Adventure Expeditions",
+      "description": "Rahim Hossain is an expert in adventure travel, leading exhilarating treks and outdoor expeditions for thrill-seekers.",
+      "yearsOfExperience": 6,
+      "location": "Sylhet, Bangladesh",
+      "contact": {
+        "email": "karim.hossain@example.com",
+        "phone": "+8801122334455"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Rafiq Islam",
+      "profileImage": "https://i.ibb.co.com/9yNMBMB/guide6.jpg",
+      "specialty": "Wildlife Safaris",
+      "description": "Rafida Islam is a wildlife enthusiast who takes travelers on unforgettable safaris, highlighting the beauty of nature and wildlife.",
+      "yearsOfExperience": 7,
+      "location": "Khulna, Bangladesh",
+      "contact": {
+        "email": "rafida.islam@example.com",
+        "phone": "+8809988776655"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Nadim Ahmed",
+      "profileImage": "https://i.ibb.co.com/jWkMHgd/guide1.jpg",
+      "specialty": "Culinary Tours",
+      "description": "Nadim Ahmed combines his love for food and travel by organizing culinary tours that offer a taste of authentic local cuisine.",
+      "yearsOfExperience": 9,
+      "location": "Rajshahi, Bangladesh",
+      "contact": {
+        "email": "nadim.ahmed@example.com",
+        "phone": "+8804455667788"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Tanvir Alam",
+      "profileImage": "https://i.ibb.co.com/bvxz6zF/guide2.jpg",
+      "specialty": "Photography Trips",
+      "description": "Tanvir Alam is a skilled photographer who leads photography-focused tours, helping travelers capture stunning shots.",
+      "yearsOfExperience": 5,
+      "location": "Cox's Bazar, Bangladesh",
+      "contact": {
+        "email": "tanvir.alam@example.com",
+        "phone": "+8805566778899"
+      }
+    }
+  ]
+  

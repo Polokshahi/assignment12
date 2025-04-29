@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "Emma Johnson",
+      "location": "Paris, France",
+      "story": "Visiting Paris was a dream come true! Exploring the Eiffel Tower at night and walking along the Seine River was magical. The Louvre Museum left me in awe, and the croissants were the best I've ever had!",
+      "image": "https://i.pinimg.com/736x/f9/c3/8d/f9c38d7d10fd4b66d7a1f029daa529a4.jpg",
+      "date": "2024-05-12"
+    },
+    {
+      "id": 2,
+      "name": "Liam Smith",
+      "location": "Kyoto, Japan",
+      "story": "Kyoto’s cherry blossoms were breathtaking! The peaceful Zen gardens and historic temples made my trip unforgettable. I loved experiencing the traditional tea ceremony and staying in a ryokan.",
+      "image": "https://i.pinimg.com/736x/47/55/ca/4755ca0523caf299505ae160c2a2ca8b.jpg",
+      "date": "2023-10-08"
+    },
+    {
+      "id": 3,
+      "name": "Sophia Martinez",
+      "location": "Cape Town, South Africa",
+      "story": "Hiking up Table Mountain rewarded me with stunning views of the city and ocean. The wildlife safari in Kruger National Park was an adventure of a lifetime, and I’ll never forget seeing lions up close!",
+      "image": "https://i.pinimg.com/736x/c8/c5/12/c8c512c7e988b2e1d9a82bcee68e8d2f.jpg",
+      "date": "2024-02-20"
+    },
+    {
+      "id": 4,
+      "name": "Noah Williams",
+      "location": "Santorini, Greece",
+      "story": "The whitewashed buildings and blue domes of Santorini were even more beautiful in person. Watching the sunset in Oia was mesmerizing, and the fresh seafood dishes were absolutely delicious!",
+      "image": "https://i.pinimg.com/736x/cb/5f/58/cb5f5839eaaa92dc9c10acdb5ee85aa2.jpg",
+      "date": "2023-07-15"
+    },
+    {
+      "id": 5,
+      "name": "James Brown",
+      "location": "New York City, USA",
+      "story": "The bustling streets of NYC were full of energy! I visited Times Square, Central Park, and caught a Broadway show. The food was incredible, especially the street hot dogs!",
+      "image": "https://cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg",
+      "date": "2024-01-01"
+    }
+  ]
+  
