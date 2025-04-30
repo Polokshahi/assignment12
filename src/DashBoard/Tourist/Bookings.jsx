@@ -12,7 +12,7 @@ const Bookings = () => {
     const { data: bookingData = [], isPending, error } = useQuery({
         queryKey: ['bookings'],
         queryFn: async () => {
-            const response = await axios.get('http://localhost:5000/bookings');
+            const response = await axios.get('https://assignment-12-server-five-ebon.vercel.app/bookings');
             return response.data;
         }
     });
@@ -20,7 +20,7 @@ const Bookings = () => {
     // Cancel Booking Mutation
     const cancelMutation = useMutation({
         mutationFn: async (bookingId) => {
-            await axios.delete(`http://localhost:5000/bookings/${bookingId}`);
+            await axios.delete(`https://assignment-12-server-five-ebon.vercel.app/bookings/${bookingId}`);
         },
         onSuccess: () => {
             Swal.fire("Cancelled!", "Your booking has been cancelled.", "success");

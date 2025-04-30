@@ -10,7 +10,7 @@ const Manage_Profile = () => {
 
   // Fetch users from the server
   useEffect(() => {
-    fetch('http://localhost:5000/allusers')
+    fetch('https://assignment-12-server-five-ebon.vercel.app/allusers')
       .then(res => res.json())
       .then(data => setUsers(data));
   }, []);
@@ -32,9 +32,9 @@ const Manage_Profile = () => {
     };
 
     // Update the user on the server
-    axios.put(`http://localhost:5000/allusers/${selectedUser._id}`, updateUser)
+    axios.put(`https://assignment-12-server-five-ebon.vercel.app/allusers/${selectedUser._id}`, updateUser)
       .then((response) => {
-        console.log(response.data);
+        // console.log(response.data);
         if (response.data.modifiedCount > 0) {
           // Immediately update the client-side data
           const updatedUsers = users.map(user =>

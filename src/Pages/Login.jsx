@@ -41,7 +41,7 @@ const Login = () => {
                 role: "tourist"
             }
 
-            axios.post('http://localhost:5000/allusers', googleSignInUserInfo)
+            axios.post('https://assignment-12-server-five-ebon.vercel.app/allusers', googleSignInUserInfo)
                 .then(data => {
                     console.log('user added successfully', data)
                     Swal.fire({

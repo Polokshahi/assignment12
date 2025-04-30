@@ -28,20 +28,20 @@ const BookingForm = () => {
             status: "Pending",  
         };
 
-        console.log("Booking Submitted:", bookingDetails);
+        // console.log("Booking Submitted:", bookingDetails);
         alert("Booking Successful!");
 
 
         //   data store to mongoDb 
 
-        fetch('http://localhost:5000/booking', {
+        fetch('https://assignment-12-server-five-ebon.vercel.app/booking', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(bookingDetails)
         }).then(res => {
-            console.log('server side response', res);
+            // console.log('server side response', res);
         })
 
       

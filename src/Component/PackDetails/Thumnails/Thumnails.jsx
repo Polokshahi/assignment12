@@ -37,7 +37,7 @@ import img1 from "../../../assets/Banner/banner2.jpg"
 
 const Thumbnails = () => {
     const onInit = () => {
-        console.log('lightGallery has been initialized');
+        // console.log('lightGallery has been initialized');
     };
     return (
         <div className='container bg-gray-200 mx-auto mt-6 mb-6  '>

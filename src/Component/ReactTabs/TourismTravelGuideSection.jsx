@@ -45,7 +45,7 @@ const TourismTravelGuideSection = () => {
 
 
     const fetchData = () => {
-        fetch('http://localhost:5000/tourpackages')
+        fetch('https://assignment-12-server-five-ebon.vercel.app/tourpackages')
             .then(res => res.json())
             .then(data => {
                 // Get 3 random items from the fetched data

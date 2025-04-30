@@ -47,7 +47,7 @@ const routes = [
         {
             path: '/packageDetails/:id',
             element: <PrivateRoute><PackageDetails></PackageDetails></PrivateRoute>,
-            loader: () => fetch('http://localhost:5000/tourpackages')
+            loader: () => fetch('https://assignment-12-server-five-ebon.vercel.app/tourpackages')
            
             
         },
@@ -94,7 +94,7 @@ const routes = [
        {
         path:'/dashboard/tourist/manage-profile',
         element:<Manage_Profile></Manage_Profile>,
-        loader: () => fetch('http://localhost:5000/allusers')
+        loader: () => fetch('https://assignment-12-server-five-ebon.vercel.app/allusers')
         
 
         

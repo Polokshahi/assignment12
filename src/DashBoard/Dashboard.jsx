@@ -13,7 +13,7 @@ const Dashboard = () => {
     const { isPending, error, data: users = [] } = useQuery({
         queryKey: ['allusers'],
         queryFn: async () => {
-            const response = await axios.get('http://localhost:5000/allusers');
+            const response = await axios.get('https://assignment-12-server-five-ebon.vercel.app/allusers');
             return response.data;
         }
     });

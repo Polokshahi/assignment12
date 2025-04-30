@@ -40,14 +40,14 @@ const Register = () => {
 
         // TODO: Save user data in the database with the default role
 
-        axios.post('http://localhost:5000/allusers', userInfo)
+        axios.post('https://assignment-12-server-five-ebon.vercel.app/allusers', userInfo)
         .then(data => {
-            console.log('user added successfully', data)
+            // console.log('user added successfully', data)
             navigate('/'); // Redirect after registration
         })
 
         } catch (error) {
-            console.log("Registration Error:", error.message);
+            // console.log("Registration Error:", error.message);
         }
     };
 

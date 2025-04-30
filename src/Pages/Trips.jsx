@@ -6,7 +6,7 @@ const Trips = () => {
     const { isPending, error, data: bookingData } = useQuery({
         queryKey: ['/bookings'],
         queryFn: async () => {
-            const response = await axios.get('http://localhost:5000/bookings');
+            const response = await axios.get('https://assignment-12-server-five-ebon.vercel.app/bookings');
             return response.data;
         }
     });
